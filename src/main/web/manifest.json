@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Getting started example",
+  "description": "This extension identifies the url accessed using kotlin.",
+  "version": "1.0.1",
+
+  "browser_action": {
+    "default_icon": "kotlin.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
